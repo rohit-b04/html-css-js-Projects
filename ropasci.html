@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel = "stylesheet" href="styles/ropasci.css">
+
+</head>
+<body>
+    <p class="title">Rock Paper Scissors</p>
+    <button class="input-button-style" onclick = "playGame('rock')">
+        <img class="img-style" src="images/rock-hand.png" alt="rock">
+    </button>
+    <button class="input-button-style" onclick = "playGame('paper')">
+        <img class="img-style" src="images/paper-hand.png" alt="paper">
+    </button>
+    <button class="input-button-style" onclick = "playGame('scissors')">
+        <img class="img-style" src="images/scissors-hand.png" alt="scissors">
+    </button>
+    <p class = "js-para-result"></p>
+    <p class = "js-para-moves"></p> 
+    <p class = "js-para-score"></p>
+    <button class="reset-button" onclick="resetScores()">Reset Scores</button>
+
+    <button class="js-auto-play auto-play-button " onclick="autoPlay()">Auto Play</button>
+
+    <script src = "scripts/ropasci.js"></script>
+</body>
+</html>
